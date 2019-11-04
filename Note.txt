@@ -5,6 +5,7 @@ https://github.com/bradtraversy/modern_portfolio
 https://github.com/Annie-Huang/modern_portfolio
 
 https://github.com/sass/node-sass
+https://fontawesome.com/kits/fca1384425/settings
 
 ============================================================
 
