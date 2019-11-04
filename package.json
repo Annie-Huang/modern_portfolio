@@ -1,7 +1,7 @@
 {
   "name": "modern_portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Responsive portfolio website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,13 @@
     "url": "git+https://github.com/Annie-Huang/modern_portfolio.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Annie Huang",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Annie-Huang/modern_portfolio/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/modern_portfolio#readme"
+  "homepage": "https://github.com/Annie-Huang/modern_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
 }

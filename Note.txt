@@ -9,4 +9,4 @@ https://github.com/sass/node-sass
 ============================================================
 
 C:\react\modern_portfolio>npm init -y
-
+C:\react\modern_portfolio>npm i node-sass
