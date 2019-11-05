@@ -1,0 +1,8 @@
+// Notice the partical does not generate the css file?
+
+$primary-color: #444;
+$secondary-color: #eece1a;
+$show-home-image: true;
+// Remember this is the relative path of dist/css/main.css. not scss/main.scss.
+$home-image: url(../img/background.jpg);
+$background-opacity: 0.9;
