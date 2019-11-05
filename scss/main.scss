@@ -1,30 +1,5 @@
 @import "config";
-
-@mixin easeOut {
-  transition: all 0.5s ease-out;
-}
-
-@mixin background {
-  @if ($show-home-image) {
-    &#bg-img {
-      background: $home-image;
-      // A background-image that will not scroll with the page (fixed):
-      background-attachment: fixed;
-      background-size: cover;
-      // Add a overlay layer...
-      &:after {
-        content: ''; // if you use before or after, you need to put content in.
-        position: absolute;
-        top: 0;
-        right: 0; // Not sure it doesn't choose left?
-        width: 100%;
-        height: 100%;
-        z-index: -1; // because the default z-index for main is 0
-        background: rgba($primary-color, $background-opacity);
-      }
-    }
-  }
-}
+@import "menu";
 
 //html {
 //  font-size: 10px;
