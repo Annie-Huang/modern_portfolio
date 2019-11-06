@@ -63,5 +63,14 @@
     padding: 0;
     background: darken($primary-color, 5);
     list-style: none;
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d
+    // translate3d(tx, ty, tz)
+    // -100% means negative y, meaning from the top.
+    transform: translate3d(0, -100%, 0);
+    @include easeOut;
+    &.show {
+      // Slide in from the top
+      transform: translate3d(0, 0, 0);
+    }
   }
 }
