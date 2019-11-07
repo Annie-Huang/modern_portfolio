@@ -79,6 +79,7 @@ main {
     'bioimage bio bio'
     'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
+  color: set-text-color($primary-color);
 
   // You don't have to nested any of the below into .about-info. It just look better in group.
   .bio-image {
