@@ -7,11 +7,22 @@ https://github.com/Annie-Huang/modern_portfolio
 https://github.com/sass/node-sass
 https://fontawesome.com/kits/fca1384425/settings
 
+Deployed site:
+https://Annie-Huang.github.io/modern_portfolio
+
+https://www.namecheap.com/domains/
+https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site
+https://www.inmotionhosting.com/
+
 ============================================================
 
 C:\react\modern_portfolio>npm init -y
 C:\react\modern_portfolio>npm i node-sass
+C:\react\modern_portfolio>npm i gh-pages
+C:\react\modern_portfolio>npm run deploy
 
+
+C:\react\modern_portfolio>npm run sass
 
 ============================================================
 
@@ -54,3 +65,10 @@ Options:
     --help                     Print usage info
 
 ============================================================
+
+C:\react\modern_portfolio>npm run deploy
+
+> modern_portfolio@1.0.0 deploy C:\react\modern_portfolio
+> gh-pages -d dist
+
+Published
